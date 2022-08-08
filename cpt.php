@@ -33,3 +33,5 @@ function luch_register_post_type_init()
 
 
 } //function close    
+
+add_action('init', 'luch_register_post_type_init');
